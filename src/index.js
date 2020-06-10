@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Login from "./components/Login.js";
+import Layout from "./layout/Layout";
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <Layout />
   </React.StrictMode>,
   document.getElementById("root")
 );
