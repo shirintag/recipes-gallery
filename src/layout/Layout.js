@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Login from "../components/Login/Login";
-import RecipeCard from "../components/RecipeCard/RecipeCard";
+import RecipeGallery from "../components/RecipeGallery/RecipeGallery";
 
 import "./Layout.css";
 
 const Layout = () => {
+  const [loggedin, setLogin] = useState(true);
+  console.log(loggedin);
+
   return (
     <div className="layout">
       <header>
@@ -14,11 +17,10 @@ const Layout = () => {
           alt="HelloFreshGo"
         />
       </header>
-      <content>
-        <Login />
-        <RecipeCard />
-      </content>
-
+      <div>
+        {!loggedin && <Login handleSubmit={() => setLogin(!loggedin)} />}
+        {loggedin && <RecipeGallery />}
+      </div>
       <footer>
         <img
           src="https://www.hellofreshgo.de/wp-content/uploads/2018/04/dark.png"
