@@ -1,9 +1,15 @@
 import React from "react";
 import StarRating from "../Rater/StarRating";
+import Heart from "../Heart/Heart";
+
 import "./RecipeCard.css";
 const RecipeCard = (props) => {
   return (
     <div className="recipe-card">
+      <div className="recipe-heart">
+        <Heart />
+      </div>
+
       <img className="recipe-image" src={props.image} />
       <div className="recipe-data f-subcopy">
         <StarRating totalStars={5} />

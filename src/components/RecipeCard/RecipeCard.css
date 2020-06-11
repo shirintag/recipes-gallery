@@ -1,6 +1,7 @@
 .recipe-card {
   width: 260px;
   margin: 20px;
+  position: relative;
   padding: 20px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
@@ -20,4 +21,9 @@
 
 span {
   margin-right: 10px;
+}
+.recipe-heart {
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }

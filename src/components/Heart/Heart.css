@@ -1,0 +1,35 @@
+.heart {
+  background-color: grey;
+  height: 16px;
+  transform: rotate(-45deg);
+  width: 16px;
+  cursor: pointer;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: grey;
+  border-radius: 50%;
+  height: 16px;
+  position: absolute;
+  width: 16px;
+}
+
+.heart:before {
+  top: -8px;
+  left: 0;
+}
+
+.heart.selected {
+  background-color: red;
+}
+
+.heart.selected:before,
+.heart.selected:after {
+  background-color: red;
+}
+
+.heart.selected:before {
+  background-color: red;
+}
