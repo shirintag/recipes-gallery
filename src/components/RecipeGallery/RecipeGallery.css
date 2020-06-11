@@ -1,9 +1,7 @@
 .recipes-gallery {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
-  max-width: 1120px;
   text-align: center;
-  margin: 50px 10px;
 }

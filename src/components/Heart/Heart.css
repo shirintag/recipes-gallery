@@ -1,5 +1,5 @@
 .heart {
-  background-color: grey;
+  background-color: rgba(201, 201, 201);
   height: 16px;
   transform: rotate(-45deg);
   width: 16px;
@@ -9,7 +9,7 @@
 .heart:before,
 .heart:after {
   content: "";
-  background-color: grey;
+  background-color: rgba(201, 201, 201);
   border-radius: 50%;
   height: 16px;
   position: absolute;
