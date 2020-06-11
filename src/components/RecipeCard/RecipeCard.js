@@ -1,6 +1,6 @@
 import React from "react";
-import StarRating from "../Rater/StarRating";
-import Heart from "../Heart/Heart";
+import StarRating from "components/Rater/StarRating";
+import Heart from "components/Heart/Heart";
 
 import "./RecipeCard.css";
 const RecipeCard = (props) => {

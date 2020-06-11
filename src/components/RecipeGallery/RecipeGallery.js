@@ -1,6 +1,6 @@
 import React from "react";
 import recipes from "../../../recipes.json";
-import RecipeCard from "../RecipeCard/RecipeCard";
+import RecipeCard from "components/RecipeCard/RecipeCard";
 import "./RecipeGallery.css";
 
 const RecipesGallery = () => {

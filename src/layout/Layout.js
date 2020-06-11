@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Login from "../components/Login/Login";
-import RecipeGallery from "../components/RecipeGallery/RecipeGallery";
+import Login from "components/Login/Login";
+import RecipeGallery from "components/RecipeGallery/RecipeGallery";
 
 import "./Layout.css";
 
