@@ -1,0 +1,23 @@
+.recipe-card {
+  width: 260px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.recipe-image {
+  width: 220px;
+  height: 130px;
+  margin-bottom: 16px;
+}
+
+.recipe-data {
+  text-align: left;
+}
+
+span {
+  margin-right: 10px;
+}
