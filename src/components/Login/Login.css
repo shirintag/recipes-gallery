@@ -1,17 +1,15 @@
 .login-container {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.login-form {
   width: 100%;
   max-width: 400px;
   height: auto;
-  margin: 50px auto;
+  margin: 100px auto;
   padding: 20px;
   align-content: center;
   text-align: center;
   box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  background-color: white;
 }
 
 .login-input {

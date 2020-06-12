@@ -4,6 +4,7 @@
   transform: rotate(-45deg);
   width: 16px;
   cursor: pointer;
+  text-align: center;
 }
 
 .heart:before,
@@ -22,14 +23,14 @@
 }
 
 .heart.selected {
-  background-color: red;
+  background-color: #e50000;
 }
 
 .heart.selected:before,
 .heart.selected:after {
-  background-color: red;
+  background-color: #e50000;
 }
 
 .heart.selected:before {
-  background-color: red;
+  background-color: #e50000;
 }
