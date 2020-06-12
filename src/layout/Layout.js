@@ -6,6 +6,23 @@ import "./Layout.css";
 
 const Layout = () => {
   const [loggedin, setLogin] = useState(false);
+  const [recipes, setRecipes] = useState([]);
+  const handleSubmit = () => {
+    console.log("ASdfa");
+    setLogin(true);
+    fetch("/recipes", {
+      mode: "cors",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => setRecipes(json))
+      .catch((err) => {
+        console.log("Error Reading data " + err);
+      });
+  };
 
   return (
     <React.Fragment>
@@ -23,9 +40,9 @@ const Layout = () => {
           )}
         </div>
       </header>
-      <div>
-        {!loggedin && <Login handleSubmit={() => setLogin(!loggedin)} />}
-        {loggedin && <RecipeGallery />}
+      <div className="layout">
+        {!loggedin && <Login handleSubmit={() => handleSubmit()} />}
+        {loggedin && <RecipeGallery recipes={recipes} />}
       </div>
       <footer>
         <img
