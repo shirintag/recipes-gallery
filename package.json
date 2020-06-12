@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "start": "concurrently --kill-others \"webpack-dev-server --open --mode development\" \"node index.js\"",
+    "start:prod": "webpack --mode production && node index.js",
     "build": "webpack --mode production"
     "test": "jest",
     "test:watch": "npm run test -- --watch"
@@ -19,6 +20,7 @@
     "@testing-library/react": "^10.2.1",
     "autoprefixer": "^9.8.0",
     "babel-loader": "^8.1.0",
+    "concurrently": "^5.2.0",
     "css-loader": "^3.5.3",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",

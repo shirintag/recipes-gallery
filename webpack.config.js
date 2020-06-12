@@ -35,4 +35,9 @@ module.exports = {
       filename: "./index.html",
     }),
   ],
+  devServer: {
+    proxy: {
+      "/recipes": "http://localhost:3000",
+    },
+  },
 };

@@ -14,5 +14,5 @@ app.get("/recipes", (req, res) => {
 });
 
 app.listen(3000, function () {
-  console.log("Server is running on 8080!");
+  console.log("Server is running on 3000!");
 });
