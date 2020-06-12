@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard should render 1`] = `
+<div
+  class="recipe-card"
+>
+  <div
+    class="recipe-heart"
+  >
+    <div>
+      <div
+        class="heart"
+      />
+    </div>
+  </div>
+  <div
+    class="recipe-image-container"
+  >
+    <img
+      alt="Crispy Fish Goujons "
+      class="recipe-image"
+      src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg"
+    />
+  </div>
+  <div
+    class="recipe-data f-subcopy"
+  >
+    <div
+      class="star-rating"
+    >
+      <div
+        class="star-container"
+      >
+        <div
+          class="star"
+        />
+      </div>
+      <div
+        class="star-container"
+      >
+        <div
+          class="star"
+        />
+      </div>
+      <div
+        class="star-container"
+      >
+        <div
+          class="star"
+        />
+      </div>
+      <div
+        class="star-container"
+      >
+        <div
+          class="star"
+        />
+      </div>
+      <div
+        class="star-container"
+      >
+        <div
+          class="star"
+        />
+      </div>
+    </div>
+    <div
+      class="f-title"
+    >
+      Crispy Fish Goujons 
+    </div>
+    <div
+      class="f-subtitle"
+    >
+      with Sweet Potato Wedges and Minted Snap Peas
+    </div>
+    <span>
+      Calories: 
+      516 kcal
+    </span>
+    <span>
+      Time: 
+      35M
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarRating should render 1`] = `
+<div
+  class="star-rating"
+>
+  <div
+    class="star-container"
+  >
+    <div
+      class="star"
+    />
+  </div>
+</div>
+`;

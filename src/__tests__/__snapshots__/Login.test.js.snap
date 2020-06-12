@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render 1`] = `
+<div
+  class="login-container"
+>
+  <h1
+    class="login-title f-title-login"
+  >
+    Log in
+  </h1>
+  <form>
+    <input
+      class="login-input"
+      placeholder="Email"
+      required=""
+      type="email"
+      value=""
+    />
+    <input
+      class="login-input"
+      placeholder="Password"
+      required=""
+      type="password"
+      value=""
+    />
+    <input
+      class="login-button"
+      type="submit"
+      value="login"
+    />
+  </form>
+</div>
+`;
