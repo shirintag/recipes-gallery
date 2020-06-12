@@ -1,6 +1,5 @@
 html,
-body,
-#root {
+body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   width: 100%;
@@ -8,4 +7,12 @@ body,
   margin: 0;
   padding: 0;
   background-color: #f7f7f7;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
 }
