@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently --kill-others \"webpack-dev-server --open --mode development\" \"node index.js\"",
     "start:prod": "webpack --mode production && node index.js",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
     "test": "jest",
     "test:watch": "npm run test -- --watch"
   },

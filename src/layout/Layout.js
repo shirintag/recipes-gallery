@@ -8,7 +8,6 @@ const Layout = () => {
   const [loggedin, setLogin] = useState(false);
   const [recipes, setRecipes] = useState([]);
   const handleSubmit = () => {
-    console.log("ASdfa");
     setLogin(true);
     fetch("/recipes", {
       mode: "cors",

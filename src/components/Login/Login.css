@@ -44,6 +44,6 @@
 }
 .login-button:hover {
   background-color: #449d44;
-  border: #449d44;
+  border: 1px solid #449d44;
   color: white;
 }
