@@ -5,17 +5,23 @@ import RecipeGallery from "components/RecipeGallery/RecipeGallery";
 import "./Layout.css";
 
 const Layout = () => {
-  const [loggedin, setLogin] = useState(true);
-  console.log(loggedin);
+  const [loggedin, setLogin] = useState(false);
 
   return (
-    <div className="layout">
+    <React.Fragment>
       <header>
-        <img
-          src="https://www.hellofreshgo.de/wp-content/uploads/2018/04/dark.png"
-          className="header-logo"
-          alt="HelloFreshGo"
-        />
+        <div className="header-container">
+          <img
+            src="https://cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg"
+            className="header-logo"
+            alt="HelloFreshGo"
+          />
+          {loggedin && (
+            <div className="logout-button" onClick={() => setLogin(false)}>
+              logout
+            </div>
+          )}
+        </div>
       </header>
       <div>
         {!loggedin && <Login handleSubmit={() => setLogin(!loggedin)} />}
@@ -28,7 +34,7 @@ const Layout = () => {
           alt="HelloFreshGo"
         />
       </footer>
-    </div>
+    </React.Fragment>
   );
 };
 

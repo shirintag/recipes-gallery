@@ -23,7 +23,7 @@ const RecipeCard = (props) => {
         <StarRating totalStars={5} />
         <div className="f-title">{props.name}</div>
         <div className="f-subtitle">{props.headline}</div>
-        <span>calories: {props.calories || "--"}</span>
+        <span>Calories: {props.calories || "--"}</span>
         <span>Time: {props.time.substring(2) || "--"}</span>
       </div>
     </div>
