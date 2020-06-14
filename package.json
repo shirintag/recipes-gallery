@@ -8,7 +8,8 @@
     "start:prod": "webpack --mode production && node index.js",
     "build": "webpack --mode production",
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "heroku-postbuild": "npm install && npm run build"
   },
   "keywords": [],
   "author": "",
