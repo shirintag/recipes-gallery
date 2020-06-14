@@ -1,0 +1,7 @@
+{
+  "name": "Recipes Gallery",
+  "description": "The Project consists of a small example of login and once inside, a list of Recipes will be displayed. A barebones Node.js app using Express",
+  "repository": "https://github.com/shirintag/image-gallery",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}
