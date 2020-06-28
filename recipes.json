@@ -25,6 +25,7 @@
     "name": "Crispy Fish Goujons ",
     "proteins": "43 g",
     "rating": 5,
+    "usersRated": 20,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/thumb/image/533143aaff604d567f8b4571.jpg",
     "time": "PT35M"
   },
@@ -53,6 +54,7 @@
     "name": "Moroccan Skirt Steak ",
     "proteins": "31 g",
     "rating": 4.3,
+    "usersRated": 7,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/thumb/image/53314247ff604d44808b4569.jpg",
     "time": "PT30M"
   },
@@ -80,6 +82,7 @@
     "name": "Simple Sumptuous Sea Bream",
     "proteins": "29 g",
     "rating": 2.5,
+    "usersRated": 5,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/thumb/image/53314276ff604d28828b456b.jpg",
     "time": "PT35M"
   },
@@ -104,6 +107,7 @@
     "name": "Mozzarella and Pesto Roulades",
     "proteins": "67 g",
     "rating": 4.6,
+    "usersRated": 6,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/thumb/image/533143bfff604d44808b456a.jpg",
     "time": "PT35M"
   },
@@ -131,6 +135,7 @@
     "name": "Mexican Tortilla Stack",
     "proteins": "35 g",
     "rating": 4,
+    "usersRated": 3,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/thumb/image/5331430fff604d557f8b456d.jpg",
     "time": "PT35M"
   },
@@ -156,6 +161,7 @@
     "name": "Roasted Rosemary Butternut Squash ",
     "proteins": "23 g",
     "rating": 3.4,
+    "usersRated": 9,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/thumb/image/53314328ff604d4d808b456b.jpg",
     "time": "PT40M"
   },
@@ -180,6 +186,7 @@
     "name": "Gnocchi Allo Genovese",
     "proteins": "",
     "rating": 4.1,
+    "usersRated": 5,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/thumb/image/53314343ff604d28828b456c.jpg",
     "time": "PT25M"
   },
@@ -206,6 +213,7 @@
     "name": "Herbed Italian Polpetti",
     "proteins": "39 g",
     "rating": null,
+    "usersRated": 0,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/thumb/image/53314398ff604d6c7a8b456a.jpg",
     "time": "PT35M"
   },
@@ -236,6 +244,7 @@
     "name": "Genki Yakitori with Crispy Red Onions",
     "proteins": "32 g",
     "rating": 3.8,
+    "usersRated": 13,
     "thumb": "https://d3hvwccx09j84u.cloudfront.net/web/image/5252b20c301bbf46038b477e.jpg",
     "time": "PT40M"
   }

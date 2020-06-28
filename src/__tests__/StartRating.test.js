@@ -9,7 +9,9 @@ describe("StarRating", () => {
   });
 
   it("should change selected stars on click", () => {
-    let { container } = render(<StarRating totalStars={5} />);
+    let { container } = render(
+      <StarRating totalStars={5} onRate={() => true} />
+    );
     container = container.firstChild;
     // Initial rating
     let stars = container.querySelectorAll(".star");
