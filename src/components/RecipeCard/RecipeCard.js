@@ -5,7 +5,15 @@ import { rate } from "../../utilis";
 
 import "./RecipeCard.css";
 
-const RecipeCard = ({ name, headline, calories, time, rating, usersRated }) => {
+const RecipeCard = ({
+  name,
+  headline,
+  calories,
+  time,
+  rating,
+  usersRated,
+  recipeIndex,
+}) => {
   const updateRating = (newRating) => {
     rating = rate(newRating, rating, usersRated);
     usersRated++;
@@ -21,9 +29,7 @@ const RecipeCard = ({ name, headline, calories, time, rating, usersRated }) => {
       <div className="recipe-image-container">
         <img
           className="recipe-image"
-          src={
-            "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg"
-          }
+          src={`https://source.unsplash.com/235x150/?recipe&sig=${recipeIndex}`}
           alt={name}
         />
       </div>

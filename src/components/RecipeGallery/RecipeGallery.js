@@ -4,8 +4,8 @@ import RecipeCard from "components/RecipeCard/RecipeCard";
 import "./RecipeGallery.css";
 
 const RecipesGallery = ({ recipes }) => {
-  const products = recipes.map((recipe) => (
-    <RecipeCard {...recipe} key={recipe.id} />
+  const products = recipes.map((recipe, i) => (
+    <RecipeCard {...recipe} key={recipe.id} recipeIndex={i} />
   ));
   return <div className="recipes-gallery">{products}</div>;
 };
