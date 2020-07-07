@@ -3,13 +3,15 @@ import { render } from "@testing-library/react";
 
 import RecipeCard from "../components/RecipeCard/RecipeCard";
 const RecipeData = {
-  calories: "516 kcal",
+  name: "Crispy Fish Goujons ",
   headline: "with Sweet Potato Wedges and Minted Snap Peas",
+  calories: "516 kcal",
   id: "533143aaff604d567f8b4571",
+  time: "PT35M",
+  rating: 4.5,
+  usersRated: 3,
   image:
     "https://d3hvwccx09j84u.cloudfront.net/web/image/533143aaff604d567f8b4571.jpg",
-  name: "Crispy Fish Goujons ",
-  time: "PT35M",
 };
 
 describe("ProductCard", () => {

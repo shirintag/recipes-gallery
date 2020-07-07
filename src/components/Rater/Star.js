@@ -2,12 +2,7 @@ import React from "react";
 
 import "./StarRating.css";
 
-const Star = ({
-  selected = false,
-  onClick = (f) => f,
-  onMouseOver = (f) => f,
-  onMouseOut = (f) => f,
-}) => (
+const Star = ({ selected, onClick, onMouseOver, onMouseOut }) => (
   <div
     className="star-container"
     onClick={onClick}
